@@ -107,7 +107,14 @@ hr{
     margin: 20px auto 0 auto;
     background-color: white;
 }
-.sidebar_container{
+
+.sidebar_container {
+    float: right;
+    width: 224px;
+}
+
+
+.sidebar {
     float: right;
     width: 222px;
     padding: 5%;
@@ -119,7 +126,7 @@ hr{
 .btn{
     padding: 8px;
     background-color: white;
-    cursor: #126cb2;
+    cursor:pointer;
 }
 .sidebar h2{
     color: #136cb2;
@@ -141,7 +148,7 @@ hr{
 }
 .content{
     text-align: left;
-    width: 600px;
+    width: 620px;
     padding: 0 0 0 5px;
     float: left;
 }
@@ -183,7 +190,7 @@ hr{
     float: left;
     margin-right: 2%;
     border-radius: 5px;
-    border: solid 5px #dad75d;
+    border: solid 5px #dad7d5;
 }
 
 .reviews {
@@ -270,12 +277,12 @@ hr{
 
 table {
     width: 100%;
-    border: solid 1px #f4f4f4;
+    border: solid 1px #a8aa94;
 }
 
 td {
     padding: 2%;
-    border: solid 1px #f4f4f4;
+    border: solid 1px #a8aa94;
 }
 
 td img {
